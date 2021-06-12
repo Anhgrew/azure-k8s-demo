@@ -10,3 +10,6 @@ helm install -f values.yaml nginx-ingress ingress-nginx/ingress-nginx --namespac
 k apply -f deployment.yaml --namespace ingress-basic
 k apply -f deployment-1.yaml --namespace ingress-basic
 k apply -f ingress.yaml --namespace ingress-basic
+
+argocd:
+pass: NIFoVLQEjiANElOt
